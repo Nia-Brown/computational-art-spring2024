@@ -1,4 +1,5 @@
 // Nia Brown 2024
+// While looking at work, use mouse to hover over my art!
 
 // Define variables
 const message = 'Hello! Check out my Github!';
