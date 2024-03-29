@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html lang="">
+
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Nia Brown | Assignment 7 - 07 Fractals</title>
+  <style>
+    body {
+      padding: 0;
+      margin: 0;
+      background-color: #1b1b1b;
+    }
+    #depth-display {
+      position: absolute;
+      top: 10px;
+      left: 10px;
+      color: white;
+      font-size: 24px;
+    }
+  </style>
+  <script src="../p5.min.js"></script>
+  <script src="fractal_sketch.js"></script>
+</head>
+
+<body>
+  <main>
+    <input type="range" id="slider" min="2" max="10" value="5">
+    <p id="depth-display"></p> </main>
+  <script>
+    // Update depth display on slider change
+    let slider = document.getElementById('slider');
+    slider.onchange = function() {
+      document.getElementById('depth-display').textContent = `Depth: ${slider.value}`;
+    };
+  </script>
+</body>
+
+</html>
