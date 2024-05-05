@@ -62,7 +62,7 @@ iii. Portrait 3: Perlin Noise Painting
 
 I primarily used: images (Perlin Noise Painting), video cameras (Face Map), music (Dynamic Audio Visualizer), and machine learning libraries (Face Map) to create a 3D effect.
 
-I also used animation and a gif to create the effect of the man with a skateboard walking through the gallery.
+I also used animation and a gif to create the effect of a man with a skateboard walking through the gallery.
 
 ## 5. ALLOWED TO PUBLICLY SHARE:
 
