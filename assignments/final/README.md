@@ -33,7 +33,7 @@ Generate portraits of people using Perlin noise. The portraits can morph and shi
 ### VIDEO: 
 <video controls src="Portrait 3: Perlin Painting-1.mp4" title="Title"></video>
 
-## 2. LINK: [insert link here]
+## 2. LINK: [Nia-Brown.github.io/computational-art-spring2024/assignments/final]
 <!-- drag and click shift to drop videos, images into readMe.md -->
 
 NOTE: Because there were/have been issues loading all of my code at once, I have embedded screenshot videos of how each gallery should work.
