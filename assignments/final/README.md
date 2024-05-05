@@ -17,21 +17,21 @@ From left to right:
 Displays a colorful and dynamic audio visualizer that responds to pre-recorded audio files. The shapes and colors  change based on the audio input. 
 
 ### VIDEO:
-<video controls src="Portrait 1: Audio Visualizer.mp4" title="Title"></video>
+<video controls src="../final/Portrait1:AudioVisualizer.mp4" title="Title"></video>
 
 ### Portrait 2: Face Map
 
 The camera on the user's computer is used to map and create dots that move and change as the user's facial expressions and and head moves. Ml5.js (Machine Learning library) was imported. Additionally, whener the user's head moves, new fireworks are generated and explode on the canvas.
 
 ### VIDEO:
-<video controls src="Portrait 2: Face Map.mp4" title="Title"></video>
+<video controls src="../final/Portrait2:FaceMap.mp4" title="Title"></video>
 
 ### Portrait 3: Perlin Noise
 
 Generate portraits of people using Perlin noise. The portraits can morph and shift over time, creating a sense of movement and transformation. 
 
 ### VIDEO: 
-<video controls src="Portrait 3: Perlin Painting-1.mp4" title="Title"></video>
+<video controls src="../final/Portrait3:PerlinPainting.mp4" title="Title"></video>
 
 ## 2. LINK: [Nia-Brown.github.io/computational-art-spring2024/assignments/final]
 <!-- drag and click shift to drop videos, images into readMe.md -->
