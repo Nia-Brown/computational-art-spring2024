@@ -1,39 +1,69 @@
 # Nia Brown's Final Project
 
-1. TITLE: Nia's Generative Art Gallery
+## **NOTE: Because there were/have been issues loading all of my code at once, I have embedded screenshot videos of how each gallery should work.**
 
-Each portrait/artwork has it's own unique behavior. From left to right:
 
-Portrait 1:  Dynamic Audio Visualizer
+## 1. TITLE: Nia's Generative Art Gallery
 
-Displays a colorful and dynamic audio visualizer that responds to pre-recorded audio files. The shapes and colors  change based on the audio input. Users can interact with the visualizer by adjusting the audio playback speed with mouse movements.
+Each portrait/artwork has it's own unique behavior. Below is a screenshot of the home page (GalleryState.js):
 
-Portrait 2: Fractal Garden
+![Gallery Home Page](<images/Gallery Home Page.png>)
 
-Plants and flowers are generated using fractal algorithms. Users can interact with the garden by planting seeds or adjusting parameters, causing the plants to grow and change over time.
+-------------------------------------
+From left to right:
 
-Portrait 3: Particle Symphony
+### Portrait 1:  Dynamic Audio Visualizer
 
-Develop a visual and auditory symphony of particles that move and collide in response to music or sound input. Users can change the music to influence the particles' behavior, creating unique patterns and movements.
+Displays a colorful and dynamic audio visualizer that responds to pre-recorded audio files. The shapes and colors  change based on the audio input. 
 
-Portrait 4: Perlin Noise
+### VIDEO:
+<video controls src="Portrait 1: Audio Visualizer.mp4" title="Title"></video>
 
-Generate portraits of people using Perlin noise. The portraits could morph and shift over time, creating a sense of movement and transformation. Users can interact with the portraits by adjusting sliders that control the intensity and direction of the noise.
+### Portrait 2: Face Map
 
-Portrait 5: Skyline
+The camera on the user's computer is used to map and create dots that move and change as the user's facial expressions and and head moves. Ml5.js (Machine Learning library) was imported. Additionally, whener the user's head moves, new fireworks are generated and explode on the canvas.
 
-The buildings and streets are generated using cellular automata. User can change the rules of the automata or introduce random events to see how the city evolves and grows.
+### VIDEO:
+<video controls src="Portrait 2: Face Map.mp4" title="Title"></video>
 
-2. LINK: [insert link here]
+### Portrait 3: Perlin Noise
 
-3. FIVE INTERCONNECTED ASPECTS:
+Generate portraits of people using Perlin noise. The portraits can morph and shift over time, creating a sense of movement and transformation. 
+
+### VIDEO: 
+<video controls src="Portrait 3: Perlin Painting-1.mp4" title="Title"></video>
+
+## 2. LINK: [insert link here]
+<!-- drag and click shift to drop videos, images into readMe.md -->
+
+NOTE: Because there were/have been issues loading all of my code at once, I have embedded screenshot videos of how each gallery should work.
+
+## 3. FIVE INTERCONNECTED ASPECTS:
 
 i. Portrait 1:  Dynamic Audio Visualizer:
-    -Audio input influences the movement and color of shapes.
-    -Mouse interactions change the audio playback speed.
+    -Play/Pause determines if audio visualizer begins or not.
+    - Users can click play/pause button to trigger "freeze frame" of current audio visualizer state. For example, when clicking "pause", the bar height and color of the audio visualizer freezes and doesn't go away until user clicks "play" or "return to gallery".
+    -Color and height of audio visualizer is dependent upon mp3 file chosen.
+
+ii. Portrait 2: Face Map
+    - Portrait will only map face if the face is detected, therefore the camera must be on and working in order to show user's face.
+    - If the face goes out of camera view, text that says "no face detected" appears until the face is back in view.
+    - User's facial expression and head movement must change for face to map and reflect those changes digitally (on the face map)
+    - User's head must move to trigger the fireworks exploding.
+
+iii. Portrait 3: Perlin Noise Painting
+    - Image provided generates painting/portraits of people using Perlin noise and swirling effect. Image must be present for "painting" effect to work.
+    - Swirling/distorted effect is based on angle, xOffset, and YOffset of image on the canvas.
+
+9 total interconnected aspects across each portrait gallery.
 
 
+## 4. MULTIMEDIA:
 
-4. MULTIMEDIA:
+I primarily used: images (Perlin Noise Painting), video cameras (Face Map), music (Dynamic Audio Visualizer), and machine learning libraries (Face Map) to create a 3D effect.
 
-5. ALLOWED TO PUBLICLY SHARE:
+I also used animation and a gif to create the effect of the man with a skateboard walking through the gallery.
+
+## 5. ALLOWED TO PUBLICLY SHARE:
+
+Yes.

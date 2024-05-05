@@ -1,0 +1,20 @@
+body {
+    cursor: url("../final/images/cursor.cur"), auto;
+}
+
+.return-button-container {
+    position: absolute; /* Position the container at the bottom */
+    bottom: 40px;
+    left: 50%;
+    transform: translateX(-50%); /* Center the container horizontally */
+    
+  }
+  
+  .return-button {
+    /* Style the button (background color, size, etc.) */
+    background-color: red;
+    padding: 10px 15px;
+    font-size: 14px;
+    cursor: url("../final/images/cursor.cur"), auto;
+  }
+  
