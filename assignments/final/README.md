@@ -48,19 +48,19 @@ NOTE: Because there were/have been issues loading all of my code at once, I have
 ## 3. FIVE INTERCONNECTED ASPECTS:
 
 i. Portrait 1:  Dynamic Audio Visualizer:
-    -Play/Pause determines if audio visualizer begins or not.
-    - Users can click play/pause button to trigger "freeze frame" of current audio visualizer state. For example, when clicking "pause", the bar height and color of the audio visualizer freezes and doesn't go away until user clicks "play" or "return to gallery".
-    -Color and height of audio visualizer is dependent upon mp3 file chosen.
+- Play/Pause determines if audio visualizer begins or not.
+- Users can click play/pause button to trigger "freeze frame" of current audio visualizer state. For example, when clicking "pause", the bar height and color of the audio visualizer freezes and doesn't go away until user clicks "play" or "return to gallery".
+- Color and height of audio visualizer is dependent upon mp3 file chosen.
 
 ii. Portrait 2: Face Map
-    - Portrait will only map face if the face is detected, therefore the camera must be on and working in order to show user's face.
-    - If the face goes out of camera view, text that says "no face detected" appears until the face is back in view.
-    - User's facial expression and head movement must change for face to map and reflect those changes digitally (on the face map)
-    - User's head must move to trigger the fireworks exploding.
+- Portrait will only map face if the face is detected, therefore the camera must be on and working in order to show user's face.
+- If the face goes out of camera view, text that says "no face detected" appears until the face is back in view.
+- User's facial expression and head movement must change for face to map and reflect those changes digitally (on the face map)
+- User's head must move to trigger the fireworks exploding.
 
 iii. Portrait 3: Perlin Noise Painting
-    - Image provided generates painting/portraits of people using Perlin noise and swirling effect. Image must be present for "painting" effect to work.
-    - Swirling/distorted effect is based on angle, xOffset, and YOffset of image on the canvas.
+- Image provided generates painting/portraits of people using Perlin noise and swirling effect. Image must be present for "painting" effect to work.
+- Swirling/distorted effect is based on angle, xOffset, and YOffset of image on the canvas.
 
 9 total interconnected aspects across each portrait gallery.
 
