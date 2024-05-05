@@ -17,7 +17,13 @@ From left to right:
 Displays a colorful and dynamic audio visualizer that responds to pre-recorded audio files. The shapes and colors  change based on the audio input. 
 
 ### VIDEO:
-<video controls src="../final/Portrait1:AudioVisualizer.mp4" title="Title"></video>
+<video controls src="../final/
+
+https://github.com/Nia-Brown/computational-art-spring2024/assets/97653024/818be300-256a-47a7-8700-49bf79605f55
+
+Portrait1:AudioVisualizer.mp4" title="Title"></video>
+Backup:
+https://vscode.dev/github/Nia-Brown/computational-art-spring2024/blob/main/assignments/final/Portrait1%3AAudioVisualizer.mp4
 
 ### Portrait 2: Face Map
 
@@ -25,6 +31,8 @@ The camera on the user's computer is used to map and create dots that move and c
 
 ### VIDEO:
 <video controls src="../final/Portrait2:FaceMap.mp4" title="Title"></video>
+Backup:
+https://vscode.dev/github/Nia-Brown/computational-art-spring2024/blob/main/assignments/final/Portrait2%3AFaceMap.mp4
 
 ### Portrait 3: Perlin Noise
 
@@ -32,6 +40,8 @@ Generate portraits of people using Perlin noise. The portraits can morph and shi
 
 ### VIDEO: 
 <video controls src="../final/Portrait3:PerlinPainting.mp4" title="Title"></video>
+Backup:
+https://vscode.dev/github/Nia-Brown/computational-art-spring2024/blob/main/assignments/final/Portrait3%3APerlinPainting.mp4
 
 ## 2. LINK: [Nia-Brown.github.io/computational-art-spring2024/assignments/final]
 <!-- drag and click shift to drop videos, images into readMe.md -->
